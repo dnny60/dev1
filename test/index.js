@@ -1,5 +1,5 @@
-import { Prisma, PrismaClient } from "@prisma/client";
-
+const { Prisma, PrismaClient } = require("@prisma/client");
+ 
 const prisma = new PrismaClient();
 
 async function emptyDatabase() {
